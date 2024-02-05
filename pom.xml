@@ -2,8 +2,8 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>TestAssignment_Cucumber1</groupId>
-  <artifactId>TestAssignment_Cucumber1</artifactId>
+  <groupId>BDD-DDDTestAutomationFramework</groupId>
+  <artifactId>BDD-DDDTestAutomationFramework</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
@@ -11,6 +11,7 @@
   <url>http://maven.apache.org</url>
 
   <properties>
+  <tools-systemPath>C:\Program Files\Java\jdk-17\lib\tools.jar</tools-systemPath>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
@@ -73,7 +74,7 @@
     <artifactId>tools</artifactId>
     <version>1.7</version>
     <scope>system</scope>
-    <systemPath>/home/rohit/Downloads/jdk-17.0.2/lib/tools.jar</systemPath>
+    <systemPath>${tools-systemPath}</systemPath>
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/org.json/json -->
@@ -100,11 +101,11 @@
 
 
 
- 	<dependency>
- 		<groupId>Cucumber002</groupId>
- 		<artifactId>Cucumber002</artifactId>
+ <!--<dependency>
+ 		<groupId>BDDTestAutomationFramework</groupId>
+ 		<artifactId>BDDTestAutomationFramework</artifactId>
  		<version>0.0.1-SNAPSHOT</version>
- 	</dependency>
+ </dependency>-->
  </dependencies>
  
  

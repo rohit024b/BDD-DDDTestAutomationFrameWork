@@ -38,8 +38,9 @@ public class navBarStepDef{
 		_navigationBarPages = new navigationBarPages(driver);
 	}
 		//https://services.aeromegh.com/login
-//	String base_URLString = "https://leverageedu.com/course-finder/";
-	String base_URLString = "https://services.aeromegh.com/login";
+	String base_URLString = "https://leverageedu.com/course-finder/";
+//	String base_URLString = "https://services.aeromegh.com/login";
+	
 
 	Scenario scn;
 	@Before
